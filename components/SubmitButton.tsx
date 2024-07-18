@@ -4,6 +4,7 @@ interface ButtonProps {
   className?: string;
   children: React.ReactNode;
 }
+import { Image } from "next/image";
 const SubmitButton = ({ isLoading, className, children }: ButtonProps) => {
   return (
     <Button
